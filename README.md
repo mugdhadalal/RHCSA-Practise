@@ -1,18 +1,18 @@
 # RHCSA-Practise
 #to create a blank file
-touch redhat
+- touch redhat
 #to create text file
-touch redhat.txt
+- touch redhat.txt
 #to create multiple files
-touch redhat{1..5}
+- touch redhat{1..5}
 #to display the list of files and folder
-ls
+- ls
 long lasting format
-ls -l
-to display all files including hidden files
-ls -a
+- ls -l
+#to display all files including hidden files
+- ls -a
 #to create a directory
-mkdir redhat
+- mkdir redhat
 mkdir redhat1 redhat2 redhat3
 #to create collabrative or parent directory
 mkdir -p abc/red/hat
