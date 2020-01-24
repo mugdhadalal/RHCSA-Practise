@@ -1,9 +1,10 @@
 # RHCSA-Practise
-#to create a blank file
-- touch redhat
+######to create a blank file
+'''touch redhat'''
 #to create text file
 - touch redhat.txt
 #to create multiple files
+
 - touch redhat{1..5}
 #to display the list of files and folder
 - ls
