@@ -1,5 +1,5 @@
 ###### RHCSA-Practise
-> Basic Commands
+# Basic Commands
 * **to create a blank file**
 ```touch redhat```
 * **to create text file**
@@ -32,8 +32,11 @@
 * **to move files and renames files**
 - ```mv file1 file4 (renaming of file1)```
 - ```mv file1 file2 (moving of file1)```
-
-> Editing files with VIM
+* **Head** is used to show the upper lines
+* **tail** is used to show below lines 
+```head –n 30 filename```
+```tail -n 10 filename```
+# Editing files with VIM
 * **open file with** 
 ```vim filename```
 1. *press **I** to enter insert mode*
@@ -41,9 +44,18 @@
 3. *enter **w** to save the file*
 4. *enter **wq** to save the file and quit Vim*
 5. *enter **q!** to quit vim and to discard changes made in the file*
-6. ***p** to paste,
-  - **dd** to delete single line
-  - **ndd** to delete multiple lines
-  - **y** to copy paragraph,**O** to insert new line,**/word** to search a word,**%s/word/word2** to replace a word with word2 and %S/word1.word2/g to replace all words 
-To create file and to save data in that file we use cat,cat >filename to store a data,cat >>filenamr to add more data,cat filename to view the data in the file
-Head is used to show the upper lines and tail is used to show below lines ex head –n 30 filename
+6.  **p** *to paste*
+7.  **dd** *to delete single line*
+8.  **ndd** *to delete multiple lines*
+9.  **y** *to copy paragraph*
+10. **O** *to insert new line*
+11. **/word** *to search a word*
+12. **%s/word/word2** *to replace a* **word** *with* **word2** 
+13. **%S/word1.word2/g** *to replace all words* 
+# cat
+To create file and to save data in that file we use **cat**
+* ```cat >filename``` to store a data
+* ```cat >>filename``` to add more data
+* ```cat filename``` to view the data in the file
+
+
