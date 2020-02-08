@@ -2,6 +2,7 @@
 # Basic Commands
 abc
 * **to create a blank file**
+abcde
 ```touch redhat```
 * **to create text file**
 ```touch redhat.txt```
