@@ -1,8 +1,9 @@
 ###### RHCSA-Practise
 # Basic Commands
-abc
+
+abcd
+>>>>>>> changes made
 * **to create a blank file**
-abcde
 ```touch redhat```
 * **to create text file**
 ```touch redhat.txt```
